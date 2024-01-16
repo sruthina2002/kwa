@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="dashboard" id="dashboard">
+           <div class="navigation">
+              <ul class="nav-links">
+                <li>Home</li>
+                <li>About</li>
+                <li>Dashboard</li>
+                <li>Contact</li>
+              </ul>
+           </div>
+           <div class="login-reg">
+             <div class="login-btn">log in</div>
+             <div class="reg-btn">registartion</div>
+           </div>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-page">
+        <div class="home-pic">
+            <img src="kwa.png" alt="">
+        </div>
+        <div class="home-content">
+             <p><strong>Kerala Water Authority Automation</strong>empowers you 
+                 to remotely monitor and control water pumps from the comfort 
+                 of your main office, utilizing cutting-edge wireless technology 
+                 to provide real-time insights into pump performance and enable 
+                 seamless control.</p>
+        </div>
+    </div>
+    </section>
+    
+    <section class="data-dashboard" class="data-dashboard">
+        <h2 class="data-dash-heading">Dashboard</h2>
+        <div class="D-sub-section">
+            <div class="ps1"></div>
+            <div class="ps2"></div>
+            <div class="ps3"></div>
+        </div>
+        <div class="D2-sub-section">
+            <p class="Arduino data">Serial Monitor data acquired by Arduino</p>
+            <div class="dataset">
+                <span class="dataset-1"></span><p>Dataset 1</p>
+                <span class="dataset-2"></span><p>Dataset 2</p>
+            </div>
+            <div class="graph">
+                <img src="graph.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="user-page" class="user-page">
+        <div class="main">
+            <div class="users">
+                <div class="user">
+                    <p>user</p>
+                </div>
+                <div class="ditrict-btn">
+                    <button class="dist1">district <span>^</span></button>
+                    <button class="dist2">district <span>^</span></button>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="main-sub1">
+                    <div class="circle"></div>
+                </div>
+                <div class="main-sub2">
+                    <div class="login-box">
+                        <div class="login-box-content">
+                            <h1>Welcome Back <span></span></h1>
+                            <p>Today is a new day.Its your day. You shape it.
+                                sign in to start managing your projects.
+                            </p>
+                        </div>
+                        <div class="login-components1">
+                            <form class="contact-form" id="submit-form" action="">
+                                <h1>Email</h1>
+                                <div class="first-row">
+                                    <input type="text" placeholder="Example@email.com">
+                                </div>
+                                <h1>Password</h1>
+                                <div class="second-row">
+                                    <input type="text" placeholder="Atleast 8 characters">
+                                    <p class="forget psw">Forget Password?</p>
+                                </div>
+                                <button class="sign-btn" type="submit">Sign In</button>
+                                <p class="signup">don't have an account? <a href="">Sign up</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
